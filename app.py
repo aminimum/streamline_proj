@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.title("Titanic Machine Learning From Disaster")
 
-data = pd.read_csv("/Users/amin/ml_project_archive/streamlit-project/data/train.csv")
+data = pd.read_csv("data/train.csv")
 st.write(data.head())
 
 features = data[["Pclass", "Age", "SibSp", "Parch"]]
